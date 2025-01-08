@@ -1,0 +1,96 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #000000;
+    font-family: "poppins",sans-serif;
+    color: #ffffff;
+}
+header{
+    display: flex;
+    justify-content: center;
+}
+nav{
+    border: 1px solid #2e2e2e;
+    background-color:rgb(255, 255 , 255, 0.1);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    width:700px ;
+    height: 60px;
+    justify-content: center;
+    align-content: center;
+}
+.header{
+    display: flex;
+    justify-content:space-between;
+}
+.header p {
+    font-weight: 500;
+}
+.header p span{
+    font-weight: 500;
+    font-style: oblique;
+    color: #a082ff;
+
+}
+.header menu{
+    display: flex;
+    justify-content:space-evenly;
+}
+.header .menu a{
+    color: #ffffff;
+    text-decoration: none;
+    margin: 5px;
+    font-weight: 500;
+}
+.mid{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.isi{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 90px;
+}
+.isi .logo-side-1{
+    border-radius: 30px;
+    width: 200px;
+    height: 150;
+    align-items: center;
+    margin-bottom: 20px;
+    border: 1px solid #2e2e2e;
+}
+.isi h1{
+    font-size: 50px;
+}
+.isi h1 span{
+    color:  #a082ff;
+    font-style: italic;
+}
+.isi .paragraf-side-1{
+    padding-top: 15px;
+}
+.isi p{
+    padding-top: 10px;
+}
+footer{
+    padding-top: 650px;
+    display: flex;
+    justify-content: center;
+}
+footer p {
+    font-style: italic;
+}

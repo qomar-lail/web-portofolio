@@ -1,0 +1,74 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background: url(bg1.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+nav{
+    background: transparent;
+    display: flex;
+    justify-content: end;
+    padding: 1rem 2rem;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    align-items: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-family: "sague ui", sans-serif;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    border-bottom: 1px solid rgba(218, 165, 32, 0);
+    transition: all;
+    transition-duration: 400ms;
+    padding: 10px 0;
+}
+
+nav ul li a:hover{
+
+    border-bottom:1px solid goldenrod;
+    color: goldenrod;
+}
+nav div img{
+    width: 80px;
+}
+main{
+    color: #fef6f6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 60vh;
+    font-family: "franklin gothic medium", sans-serif;
+}
+.logo{
+    position: relative;
+    width: 400px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    box-shadow: #fef6f6 10px;
+}
+main h1{
+    font-size: 50px;
+    margin-bottom: 1rem;
+}
+
+main p{
+    font-size: 20px;
+}
